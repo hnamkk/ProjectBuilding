@@ -33,14 +33,14 @@ Dự án được tổ chức theo cấu trúc phân tầng chuẩn của Spring
 * Thêm, sửa, xóa người dùng, bao gồm cả chức năng reset mật khẩu và cập nhật hồ sơ.
 * Phân quyền người dùng dựa trên vai trò.
 ## Cài đặt và Chạy dự án
-### Cơ sở dữ liệu
+### 1. Cài đặt Cơ sở dữ liệu
 Tạo cơ sở dữ liệu MySQL với tên buildingprj và nhập dữ liệu từ file src/database/buildingprj.sql.
-### Cấu hình
+### 2. Cấu hình ứng dụng
 Cập nhật thông tin kết nối cơ sở dữ liệu trong src/main/resources/application.properties.
-### Build
+### 3. Build
 Sử dụng Maven để build dự án: 
 * mvn clean install
-### Chạy
+### 4. Chạy ứng dụng
 Chạy ứng dụng thông qua Spring Boot
 * mvn spring-boot:run
 Hoặc chạy file SpringBootWebApplication.java từ IDE của bạn.
